@@ -15,3 +15,5 @@ var age = prompt('Enter your age?');
 var calc = age * 365.25;
 alert (calc);
 document.write ('You are ' + calc + ' ' + 'days alive');
+var display = document.getElementById('display').nodeValue;
+display.alert('display');
